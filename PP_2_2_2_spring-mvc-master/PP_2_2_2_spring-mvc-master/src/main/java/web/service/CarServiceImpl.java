@@ -3,7 +3,6 @@ package web.service;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-
 import org.springframework.stereotype.Component;
 import web.models.Car;
 
