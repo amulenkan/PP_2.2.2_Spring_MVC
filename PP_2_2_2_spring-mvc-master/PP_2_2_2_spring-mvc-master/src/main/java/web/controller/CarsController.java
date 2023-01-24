@@ -6,14 +6,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import web.service.CarService;
-import web.service.CarServiceImpl;
 
 @Controller
 @RequestMapping("/cars")
-public class CarController {
+public class CarsController {
     private final CarService carService;
 
-    public CarController(CarService carService1) {
+    public CarsController(CarService carService1) {
 
         this.carService = carService1;
     }
